@@ -1,0 +1,100 @@
+{
+  "name": "java-extension",
+  "displayName": "Java-Extension",
+  "description": "Java-Extension is a VS Code extension that simplifies Java programming. It provides code snippets, compiler integration, and an enhanced development experience.",
+  "version": "1.0.0",
+  "publisher": "adhishtanaka",
+  "author": {
+    "name": "adhishtanaka",
+    "email": "kulasoooriyaa@gmail.com"
+  },
+  "license": "LICENSE",
+  "icon": "media/Icon.png",
+  "homepage": "https://github.com/adhishtanaka/Java-Extension/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/adhishtanaka/Java-Extension/issues",
+    "email": "kulasoooriyaa@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adhishtanaka/Java-Extension.git"
+  },
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages",
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onLanguage:java"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "configuration": [
+      {
+        "title": "java-extension",
+        "properties": {
+          "java-extension.showNotification": {
+            "type": "boolean",
+            "default": true,
+            "description": "Show notifications"
+          }
+        }
+      }
+    ],
+    "snippets": [
+      {
+        "language": "java",
+        "path": "./snippets/java.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "java-extension.brj",
+        "title": "Run",
+        "icon": {
+          "dark": "./media/Drun.svg",
+          "light": "./media/Lrun.svg"
+        }
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "java-extension.brj",
+          "group": "navigation",
+          "when": "editorLangId == java"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.79.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "eslint": "^8.41.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.3",
+    "ts-loader": "^9.4.3",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1",
+    "@vscode/test-electron": "^2.3.2"
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "Java Main": {
+        "prefix": "!jmain",
+        "body": ["public static void main(String[] args) {\n \n}"],
+        "description": "Java Main"
+    },
+    "Java If": {
+        "prefix": "!jif",
+        "body": ["if () {\n \n} else if () {\n\n} else {\n\n}"],
+        "description": "Java if, else if, else"
+    },
+    "Java Switch": {
+        "prefix": "!jswitch",
+        "body": ["switch () {\ncase :\nbreak;\ncase :\nbreak;\ndefault:\n }"],
+        "description": "Java switch"
+    },
+    "Java While": {
+        "prefix": "!jwhile",
+        "body": ["while () {\n \n}"],
+        "description": "Java while loop"
+    },
+    "Java Do While": {
+        "prefix": "!jdowhile",
+        "body": ["do {\n \n} while ();"],
+        "description": "Java do-while loop"
+    },
+    "Java For": {
+        "prefix": "!jfor",
+        "body": ["for () {\n \n}"],
+        "description": "Java for loop"
+    },
+    "Java Method": {
+        "prefix": "!jmethod",
+        "body": ["public void methodName() {\n \n}"],
+        "description": "Java method"
+    },
+    "Java Interface": {
+        "prefix": "!jinterface",
+        "body": ["public interface InterfaceName {\n \n}"],
+        "description": "Java Interface"
+    },
+    "Java Class": {
+        "prefix": "!jclass",
+        "body": ["public class className {\n \n}"],
+        "description": "Java Class"
+    }
+}
