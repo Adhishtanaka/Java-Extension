@@ -40,8 +40,8 @@ The extension provides the following code snippets:
 <table>
   <tr>
     <td align="center">
-       <img src="https://github.com/NithmaFdo.png" width="80px;" alt="Nithma Fernando"/><br />
-         <a href="https://github.com/NithmaFdo"><sub><b>Nithma Fernando</b></sub> </a>
+       <img src="https://github.com/nithmafernando.png" width="80px;" alt="Nithma Fernando"/><br />
+         <a href="https://github.com/nithmafernando"><sub><b>Nithma Fernando</b></sub> </a>
         <p>Contributed the icon of Java-Extension.</p>
     </td>
   </tr>
