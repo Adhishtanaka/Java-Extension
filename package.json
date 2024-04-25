@@ -1,8 +1,8 @@
 {
   "name": "java-extension",
-  "displayName": "Java-Extension",
-  "description": "Java-Extension is a VS Code extension that simplifies Java programming. It provides code snippets, compiler integration, and an enhanced development experience.",
-  "version": "1.0.0",
+  "displayName": "Simple Java Extension",
+  "description": "Simple Java Extension is a VS Code extension that simplifies Java programming. It provides code snippets, compiler integration, and an enhanced development experience.",
+  "version": "1.0.2",
   "publisher": "adhishtanaka",
   "author": {
     "name": "adhishtanaka",

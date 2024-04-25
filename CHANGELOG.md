@@ -11,4 +11,5 @@ All notable changes to the " java-extension" extension will be documented in thi
 - release ```version 0.4.0```
 - release ```version 0.5.0```
 - release ```version 0.6.0```
-- current release ```version 1.0.0```
+- release ```version 1.0.0```
+- current release ```version 1.0.2```

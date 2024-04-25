@@ -1,6 +1,6 @@
-# Java-Extension
+# Simple Java Extension
 
-Java-Extension is a VS Code extension that simplifies Java programming. It provides code snippets, compiler integration, and an enhanced development experience.
+Simple Java-Extension is a VS Code extension that simplifies Java programming. It provides code snippets, compiler integration, and an enhanced development experience.
 
 ![Build & Run](./screenshot/run.gif)
 
@@ -12,7 +12,7 @@ Before using this extension, you need to install the Java compiler. You can down
 
 1. Launch Visual Studio Code.
 2. Go to the Extensions view (Ctrl+Shift+X).
-3. Search for "Java-Extension".
+3. Search for "Simple Java-Extension".
 4. Click on the "Install" button.
 
 ## Usage
